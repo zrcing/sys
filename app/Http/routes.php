@@ -24,6 +24,7 @@ use App\Models\Task;
 */
 
 Route::get('/', function() {
+    
     return view('welcome');
 });
 
